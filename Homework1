@@ -1,0 +1,44 @@
+class Main {
+  public static void main(String[] args) {
+
+    //P44
+
+    System.out.println("========P44========");
+
+    char a = 'A';
+
+    System.out.println("a:"+a);
+
+    int b = a;
+    System.out.println("b:"+b);
+
+    char c = 66 ;
+    System.out.println("c:"+c);
+
+    int d = a+b; //65 + 65
+    System.out.println("d:"+d);
+
+
+    System.out.println("========P45========");
+    
+
+    //P45
+
+    float f = 3.141592653589793f;
+    double dd = 3.141592653589793d;
+
+    System.out.println("float : "+f);
+    System.out.println("double : "+dd);
+
+    double dd2 = 3.141592653589793; //dd2 생략가능
+    System.out.println("double : "+dd2);
+
+    System.out.println("===================");
+
+
+
+
+
+  
+  }
+}
