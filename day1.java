@@ -5,36 +5,39 @@ By YEJU
 */
 
 
-// import java.util.Scanner;
-
-// class Main {
-//   public static void main(String[] args) {
-
-//     Scanner stdIn = new Scanner(System.in);
-
-//     System.out.print("정숫값:"); //키보드를 통해 입력한 정수값을 받는다
-//     int x = stdIn.nextInt(); //입력받은 정숫값을 x에 저장한다.
-//     System.out.println(x + "를 입력했습니다.");
-
-//   }
-// }
-
-
 import java.util.Scanner; //*대신 Scanner를 써도 됨. Scanner를 사용하기 위해 추가
 
 class Main {
   public static void main(String[] args) {
 
-   int x, y, z;
+      Scanner scanner = new Scanner(System.in); //스캐너 객체 생성.
 
-    x = 63;
-    y = 18;
-    z = 52;
+    System.out.print("57");
+    String input = scanner.nextLine();
+    int num = Integer.parseInt(input); //입력받은 문자열을 숫자로 변환
 
-    System.out.println("x값은 " + x +"입니다.");
-    System.out.println("y값은 " + y +"입니다.");
-    System.out.println("z값은 ")
+    System.out.println("입력내용 :"+input);
+    System.out.printf("num=%d%n", num);
 
+    //     Scanner stdIn = new Scanner(System.in);
+
+    //     System.out.print("정숫값:"); //키보드를 통해 입력한 정수값을 받는다
+    //     int x = stdIn.nextInt(); //입력받은 정숫값을 x에 저장한다.
+    //     System.out.println(x + "를 입력했습니다.");
+    
+
+
+   // int x, y, z;
+
+   //  x = 63;
+   //  y = 18;
+   //  z = 52;
+
+   //  System.out.println("x값은 " + x +"입니다.");
+   //  System.out.println("y값은 " + y +"입니다.");
+   //  System.out.println("z값은 " + z +"입니다.");
+   //  System.out.println("합계는 " + (x + y + z) + "입니다.");
+   //  System.out.println("평균은 "+ (x + y + z) / 3 + "입니다.");
 
 
 
